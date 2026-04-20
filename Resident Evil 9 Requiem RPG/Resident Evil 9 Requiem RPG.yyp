@@ -4,9 +4,13 @@
   "name": "Resident Evil 9 Requiem RPG",
   "resources": [
     {"id":{"name":"spr_playerwalkright","path":"sprites/spr_playerwalkright/spr_playerwalkright.yy",},"order":2,},
+    {"id":{"name":"spr_playerwalkup","path":"sprites/spr_playerwalkup/spr_playerwalkup.yy",},"order":6,},
     {"id":{"name":"spr_playerfacedown","path":"sprites/spr_playerfacedown/spr_playerfacedown.yy",},"order":1,},
     {"id":{"name":"spr_playerfaceright","path":"sprites/spr_playerfaceright/spr_playerfaceright.yy",},"order":3,},
+    {"id":{"name":"spr_playerfaceleft","path":"sprites/spr_playerfaceleft/spr_playerfaceleft.yy",},"order":5,},
+    {"id":{"name":"spr_playerwalkleft","path":"sprites/spr_playerwalkleft/spr_playerwalkleft.yy",},"order":4,},
     {"id":{"name":"spr_playerwalkdown","path":"sprites/spr_playerwalkdown/spr_playerwalkdown.yy",},"order":0,},
+    {"id":{"name":"spr_playerfaceup","path":"sprites/spr_playerfaceup/spr_playerfaceup.yy",},"order":7,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
