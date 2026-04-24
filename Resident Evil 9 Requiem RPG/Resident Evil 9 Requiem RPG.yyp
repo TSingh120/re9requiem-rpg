@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"tech_badtileset","path":"sprites/tech_badtileset/tech_badtileset.yy",},"order":10,},
     {"id":{"name":"obj_playerleon","path":"objects/obj_playerleon/obj_playerleon.yy",},"order":0,},
+    {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"order":1,},
     {"id":{"name":"spr_playerwalkright","path":"sprites/spr_playerwalkright/spr_playerwalkright.yy",},"order":2,},
     {"id":{"name":"ts_mytiles","path":"tilesets/ts_mytiles/ts_mytiles.yy",},"order":5,},
     {"id":{"name":"ts_plantsandtrees","path":"tilesets/ts_plantsandtrees/ts_plantsandtrees.yy",},"order":4,},
@@ -12,6 +13,7 @@
     {"id":{"name":"ts_midwalls","path":"tilesets/ts_midwalls/ts_midwalls.yy",},"order":3,},
     {"id":{"name":"modernint_tiles","path":"sprites/modernint_tiles/modernint_tiles.yy",},"order":9,},
     {"id":{"name":"spr_playerwalkup","path":"sprites/spr_playerwalkup/spr_playerwalkup.yy",},"order":6,},
+    {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},"order":14,},
     {"id":{"name":"spr_playerfacedown","path":"sprites/spr_playerfacedown/spr_playerfacedown.yy",},"order":1,},
     {"id":{"name":"spr_playerfaceright","path":"sprites/spr_playerfaceright/spr_playerfaceright.yy",},"order":3,},
     {"id":{"name":"spr_playerfaceleft","path":"sprites/spr_playerfaceleft/spr_playerfaceleft.yy",},"order":5,},
