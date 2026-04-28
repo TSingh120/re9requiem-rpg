@@ -1,1 +1,0 @@
-draw_circular_HP(obj_playerhp.x,obj_playerhp.y,global.playerhp,100,c_green,15,0.9,5)

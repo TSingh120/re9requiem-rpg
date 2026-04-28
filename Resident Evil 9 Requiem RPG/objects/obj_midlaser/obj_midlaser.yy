@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_playerhp",
-  "spriteId": null,
+  "name": "obj_midlaser",
+  "spriteId": {
+    "name": "spr_midlaser",
+    "path": "sprites/spr_midlaser/spr_midlaser.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerleon","path":"objects/obj_playerleon/obj_playerleon.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
