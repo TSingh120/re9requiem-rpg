@@ -4,11 +4,13 @@
   "name": "Resident Evil 9 Requiem RPG",
   "resources": [
     {"id":{"name":"tech_badtileset","path":"sprites/tech_badtileset/tech_badtileset.yy",},"order":10,},
+    {"id":{"name":"spr_zombie","path":"sprites/spr_zombie/spr_zombie.yy",},"order":18,},
     {"id":{"name":"obj_playerleon","path":"objects/obj_playerleon/obj_playerleon.yy",},"order":0,},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"order":1,},
     {"id":{"name":"spr_playerwalkright","path":"sprites/spr_playerwalkright/spr_playerwalkright.yy",},"order":2,},
     {"id":{"name":"ts_mytiles","path":"tilesets/ts_mytiles/ts_mytiles.yy",},"order":5,},
     {"id":{"name":"ts_plantsandtrees","path":"tilesets/ts_plantsandtrees/ts_plantsandtrees.yy",},"order":4,},
+    {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},"order":4,},
     {"id":{"name":"obj_midlaser","path":"objects/obj_midlaser/obj_midlaser.yy",},"order":3,},
     {"id":{"name":"ts_badtech","path":"tilesets/ts_badtech/ts_badtech.yy",},"order":2,},
     {"id":{"name":"spr_rightlaser","path":"sprites/spr_rightlaser/spr_rightlaser.yy",},"order":17,},
