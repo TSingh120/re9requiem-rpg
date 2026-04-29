@@ -17,3 +17,9 @@ var_speed = 1;
 /// @DnDHash : 43158EA3
 /// @DnDArgument : "var" "damage_timer"
 damage_timer = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 44E4C72F
+/// @DnDArgument : "var" "flash_timer"
+flash_timer = 0;
