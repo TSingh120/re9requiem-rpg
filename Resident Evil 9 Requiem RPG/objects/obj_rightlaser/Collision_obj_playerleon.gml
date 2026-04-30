@@ -12,11 +12,11 @@ if(l37478C80_0)
 	/// @DnDHash : 7203CF3E
 	/// @DnDApplyTo : {obj_playerleon}
 	/// @DnDParent : 37478C80
-	/// @DnDArgument : "expr" "-10"
+	/// @DnDArgument : "expr" "-3"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "playerhp"
 	with(obj_playerleon) {
-	playerhp += -10;
+	playerhp += -3;
 	
 	}
 
@@ -49,10 +49,10 @@ if(l37478C80_0)
 	/// @DnDHash : 0CA89944
 	/// @DnDApplyTo : {obj_playerleon}
 	/// @DnDParent : 37478C80
-	/// @DnDArgument : "expr" "+60"
+	/// @DnDArgument : "expr" "30"
 	/// @DnDArgument : "var" "flash_timer"
 	with(obj_playerleon) {
-	flash_timer = +60;
+	flash_timer = 30;
 	
 	}
 }
