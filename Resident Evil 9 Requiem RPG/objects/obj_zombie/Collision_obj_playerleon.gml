@@ -49,10 +49,10 @@ if(l37478C80_0)
 	/// @DnDHash : 0CA89944
 	/// @DnDApplyTo : {obj_playerleon}
 	/// @DnDParent : 37478C80
-	/// @DnDArgument : "expr" "15"
+	/// @DnDArgument : "expr" "30"
 	/// @DnDArgument : "var" "flash_timer"
 	with(obj_playerleon) {
-	flash_timer = 15;
+	flash_timer = 30;
 	
 	}
 }

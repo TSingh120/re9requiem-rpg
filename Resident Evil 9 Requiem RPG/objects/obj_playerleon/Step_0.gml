@@ -26,9 +26,8 @@ if(flash_timer > 0)
 	/// @DnDHash : 5B08DB3D
 	/// @DnDParent : 649A4D91
 	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "flash_timer"
-	flash_timer += -1;
+	flash_timer = -1;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
