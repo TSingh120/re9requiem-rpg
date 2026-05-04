@@ -1,0 +1,30 @@
+
+ #region Reset position and angle
+ 
+ sprite_index = spr_handgun;
+ 
+ if mouse_x > x image_yscale = 1;
+ else image_yscale = -1;
+ 
+ mouse_angle -= angle_difference(mouse_angle, point_direction(x,y,mouse_x,mouse_y)) * 0.5;
+ knockback_angle -= angle_difference(knockback_angle, 0) * 0.05;
+ 
+ image_angle = mouse_angle + knockback_angle;
+ 
+ x = lerp(x, obj_playerleon.x, 0.05);
+ y = lerp(y, obj_playerleon.y, 0.05);
+ 
+ #endregion
+ 
+ #region Shooting
+
+ if mouse_check_button_pressed(mb_left)
+ {
+	 instance_create_layer(x,y,"characters", obj_bullet, {
+		 sprite_index: spr_bullet,
+		 spd: 10,
+		 image_angle: image_angle
+	 });
+ }
+ 
+ #endregion
