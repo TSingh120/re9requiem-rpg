@@ -18,13 +18,53 @@
  
  #region Shooting
 
- if mouse_check_button_pressed(mb_left)
+ //if mouse_check_button_pressed(mb_left)
+ //{
+	// instance_create_layer(x,y,"characters", obj_bullet, {
+	//	 sprite_index: spr_bullet,
+	//	 spd: 10,
+	//	 image_angle: image_angle
+	// });
+ //}
+ 
+ var _shoot = gun.fullauto ? mouse_check_button(mb_left) : mouse_check_button_pressed(mb_left);
+ var _ammo = gun.ammo[bullet_index];
+ 
+ if canshoot > 0 canshoot--;
+ else if _shoot
  {
-	 instance_create_layer(x,y,"characters", obj_bullet, {
-		 sprite_index: spr_bullet,
-		 spd: 10,
-		 image_angle: image_angle
-	 });
+	 // Reset firerate
+	 
+	 canshoot = _ammo.firerate;
+	 
+	 // Lerp firerate to end firerate while shooting
+	 
+	 _ammo.firerate = lerp(
+		_ammo.firerate,
+		_ammo.rate_end,
+		_ammo.rate_mult);
+		
+	Shoot();
+	
+	var _delay = gun.burst_delay;
+	repeat (gun.burst_number - 1)
+	{
+		call_later(_delay, time_source_units_frames, Shoot);
+		_delay += gun.burst_delay;
+	}
+ }
+ 
+ if !mouse_check_button(mb_left) // Lerp Firerate back to starting firerate while not shooting 
+ {
+	 _ammo.firerate = lerp(
+		_ammo.firerate,
+		_ammo.rate_start,
+		_ammo.rate_mult);
  }
  
  #endregion
+ 
+if (obj_playerleon.playerhp <= 0)
+{
+    instance_destroy();
+}

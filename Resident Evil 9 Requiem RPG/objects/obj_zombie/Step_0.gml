@@ -27,3 +27,19 @@ if(l1EF71CC7_0)
 		move_and_collide(obj_playerleon.x-x, obj_playerleon.y-y, obj_barrier,4,0,0,var_zombie_speed,var_zombie_speed);
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6FEB9641
+/// @DnDArgument : "var" "var_zombie_hp"
+/// @DnDArgument : "op" "3"
+if(var_zombie_hp <= 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Change_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 45C5B5AE
+	/// @DnDParent : 6FEB9641
+	/// @DnDArgument : "objind" "obj_zombie_corpse"
+	/// @DnDSaveInfo : "objind" "obj_zombie_corpse"
+	instance_change(obj_zombie_corpse, true);
+}

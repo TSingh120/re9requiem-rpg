@@ -17,12 +17,12 @@ gun = {
 	name: "Pistol",
 	sprite: spr_handgun,
 	ammo: [bullet],
-	inaccuracy: 0,
-	kick: 2,
+	inaccuracy: 1,
+	kick: 1,
 	sound: snd_pistolshot,
-	spread_number: 3,
+	spread_number: 1,
 	spread_angle: 15,
-	fullauto: true,
+	fullauto: false,
 	burst_number: 1,
 	burst_delay: 0
 };

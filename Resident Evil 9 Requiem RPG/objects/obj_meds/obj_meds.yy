@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_zombie",
+  "name": "obj_meds",
   "spriteId": {
-    "name": "spr_zombie",
-    "path": "sprites/spr_zombie/spr_zombie.yy",
+    "name": "spr_meds",
+    "path": "sprites/spr_meds/spr_meds.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,10 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerleon","path":"objects/obj_playerleon/obj_playerleon.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
