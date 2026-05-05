@@ -27,11 +27,19 @@
 	// });
  //}
  
- var _shootar = argun.fullauto ? mouse_check_button(mb_left) : mouse_check_button_pressed(mb_left);
+ var _shoot = argun.fullauto ? mouse_check_button(mb_left) : mouse_check_button_pressed(mb_left);
+ show_debug_message(_shoot);
  var _ammo = argun.ammo[bulletar_index];
+ show_debug_message(_ammo);
+ show_debug_message(canshoot);;
+ if (keyboard_check_pressed(ord("E")))
+{
+    show_debug_message("FORCED SHOOT");
+    Shoot(argun);
+}
  
  if canshoot > 0 canshoot--;
- else if _shootar
+ else if _shoot
  {
 	 // Reset firerate
 	 
@@ -44,7 +52,7 @@
 		_ammo.rate_end,
 		_ammo.rate_mult);
 		
-	Shoot();
+	Shoot(argun);
 	
 	var _delay = argun.burst_delay;
 	repeat (argun.burst_number - 1)

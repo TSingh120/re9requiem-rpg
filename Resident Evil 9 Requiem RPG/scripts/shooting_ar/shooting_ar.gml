@@ -1,4 +1,4 @@
-function Shootar()
+function shoot(argun)
 {
 	with obj_assault_rifle
 	{
@@ -18,7 +18,7 @@ function Shootar()
 				x + lengthdir_x(_dist, image_angle),
 				y + lengthdir_y(_dist, image_angle),
 				depth - 1,
-				obj_bullet,
+				obj_bulletar,
 				{
 					image_angle: _angle + random_range(-argun.inaccuracy, argun.inaccuracy),
 					sprite_index: argun.ammo[bulletar_index].sprite,
