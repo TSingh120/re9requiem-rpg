@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gun",
+  "name": "obj_handgun",
   "spriteId": null,
   "solid": false,
   "visible": true,

@@ -4,7 +4,7 @@ knockback_angle= 0;
 obj_playerleon.x = x;
 obj_playerleon.y = y;
 
-bullet = {
+bullethg = {
 	sprite: spr_bullet,
 	spd: 20,
 	rate_start: 20,
@@ -13,10 +13,10 @@ bullet = {
 	firerate: 20,
 }; 
 
-gun = {
+handgun = {
 	name: "Pistol",
 	sprite: spr_handgun,
-	ammo: [bullet],
+	ammo: [bullethg],
 	inaccuracy: 1,
 	kick: 1,
 	sound: snd_pistolshot,
@@ -28,4 +28,4 @@ gun = {
 };
 
 canshoot = 0;
-bullet_index = 0;
+bullethg_index = 0;

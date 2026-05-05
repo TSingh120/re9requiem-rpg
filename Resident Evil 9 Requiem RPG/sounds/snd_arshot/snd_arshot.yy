@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_pistolshot",
+  "name": "snd_arshot",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.35,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_pistolshot.mp3",
-  "duration": 1.896,
+  "soundFile": "snd_arshot.mp3",
+  "duration": 0.888125,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

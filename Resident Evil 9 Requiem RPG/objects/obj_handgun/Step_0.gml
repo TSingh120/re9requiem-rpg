@@ -27,8 +27,8 @@
 	// });
  //}
  
- var _shoot = gun.fullauto ? mouse_check_button(mb_left) : mouse_check_button_pressed(mb_left);
- var _ammo = gun.ammo[bullet_index];
+ var _shoot = handgun.fullauto ? mouse_check_button(mb_left) : mouse_check_button_pressed(mb_left);
+ var _ammo = handgun.ammo[bullethg_index];
  
  if canshoot > 0 canshoot--;
  else if _shoot
@@ -46,11 +46,11 @@
 		
 	Shoot();
 	
-	var _delay = gun.burst_delay;
-	repeat (gun.burst_number - 1)
+	var _delay = handgun.burst_delay;
+	repeat (handgun.burst_number - 1)
 	{
 		call_later(_delay, time_source_units_frames, Shoot);
-		_delay += gun.burst_delay;
+		_delay += handgun.burst_delay;
 	}
  }
  
