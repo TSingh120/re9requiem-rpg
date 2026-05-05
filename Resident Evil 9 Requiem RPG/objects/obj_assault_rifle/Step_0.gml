@@ -27,16 +27,8 @@
 	// });
  //}
  
- var _shoot = argun.fullauto ? mouse_check_button(mb_left) : mouse_check_button_pressed(mb_left);
- show_debug_message(_shoot);
- var _ammo = argun.ammo[bulletar_index];
- show_debug_message(_ammo);
- show_debug_message(canshoot);;
- if (keyboard_check_pressed(ord("E")))
-{
-    show_debug_message("FORCED SHOOT");
-    Shoot(argun);
-}
+ var _shoot = assault.fullauto ? mouse_check_button(mb_left) : mouse_check_button_pressed(mb_left);
+ var _ammo = assault.ammo[bullethg_index];
  
  if canshoot > 0 canshoot--;
  else if _shoot
@@ -52,13 +44,13 @@
 		_ammo.rate_end,
 		_ammo.rate_mult);
 		
-	Shoot(argun);
+	Shoot(weapon);
 	
-	var _delay = argun.burst_delay;
-	repeat (argun.burst_number - 1)
+	var _delay = assault.burst_delay;
+	repeat (assault.burst_number - 1)
 	{
 		call_later(_delay, time_source_units_frames, Shoot);
-		_delay += argun.burst_delay;
+		_delay += assault.burst_delay;
 	}
  }
  

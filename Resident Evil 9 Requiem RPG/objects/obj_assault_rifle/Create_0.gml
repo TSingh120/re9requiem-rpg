@@ -1,3 +1,4 @@
+
 mouse_angle = 0;
 knockback_angle= 0;
 
@@ -6,26 +7,29 @@ obj_playerleon.y = y;
 
 bulletar = {
 	sprite: spr_arbullet,
-	spd: 50,
-	rate_start: 30,
-	rate_end: 30,
+	spd: 30,
+	rate_start: 10,
+	rate_end: 10,
 	rate_mult: 0,
-	firerate: 30,
+	firerate: 10,
+	damage: 20,
 }; 
 
-argun = {
-	name: "Assault_Rifle",
+assault = {
+	name: "Assault",
 	sprite: spr_assault_rifle,
 	ammo: [bulletar],
-	inaccuracy: 2,
-	kick: 1,
+	inaccuracy: 1,
+	kick: 3,
 	sound: snd_arshot,
 	spread_number: 1,
-	spread_angle: 20,
+	spread_angle: 15,
 	fullauto: true,
-	burst_number: 0,
+	burst_number: 1,
 	burst_delay: 0
 };
 
+weapon = assault;
+
 canshoot = 0;
-bulletar_index = 0;
+bullethg_index = 0;

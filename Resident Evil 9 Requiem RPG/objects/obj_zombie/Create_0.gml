@@ -8,6 +8,6 @@ var_zombie_speed = 1.4;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 61D35A1E
-/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "expr" "500"
 /// @DnDArgument : "var" "var_zombie_hp"
-var_zombie_hp = 50;
+var_zombie_hp = 500;

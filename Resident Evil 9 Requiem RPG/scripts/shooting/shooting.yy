@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "shooting_handgun",
+  "name": "shooting",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

@@ -11,6 +11,7 @@ bullethg = {
 	rate_end: 20,
 	rate_mult: 0,
 	firerate: 20,
+	damage: 15,
 }; 
 
 handgun = {
@@ -26,6 +27,8 @@ handgun = {
 	burst_number: 1,
 	burst_delay: 0
 };
+
+weapon = handgun;
 
 canshoot = 0;
 bullethg_index = 0;

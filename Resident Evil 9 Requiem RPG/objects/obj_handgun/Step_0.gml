@@ -44,7 +44,7 @@
 		_ammo.rate_end,
 		_ammo.rate_mult);
 		
-	Shoot();
+	Shoot(weapon);
 	
 	var _delay = handgun.burst_delay;
 	repeat (handgun.burst_number - 1)
