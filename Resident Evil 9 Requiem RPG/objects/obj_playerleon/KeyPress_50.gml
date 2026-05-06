@@ -22,6 +22,13 @@ if(!l7DDE0013_0)
 	/// @DnDParent : 7DDE0013
 	with(obj_shotgun) instance_destroy();
 
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 0E68B3E7
+	/// @DnDApplyTo : {obj_sniper}
+	/// @DnDParent : 7DDE0013
+	with(obj_sniper) instance_destroy();
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 0E660874

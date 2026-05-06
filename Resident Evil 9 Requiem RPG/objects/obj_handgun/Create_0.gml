@@ -7,11 +7,11 @@ obj_playerleon.y = y;
 bullethg = {
 	sprite: spr_bullet,
 	spd: 20,
-	rate_start: 20,
-	rate_end: 20,
+	rate_start: 10,
+	rate_end: 10,
 	rate_mult: 0,
-	firerate: 20,
-	damage: 15,
+	firerate: 10,
+	damage: 12,
 }; 
 
 handgun = {

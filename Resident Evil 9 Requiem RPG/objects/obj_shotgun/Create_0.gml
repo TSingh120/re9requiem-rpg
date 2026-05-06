@@ -19,7 +19,7 @@ shotgun = {
 	sprite: spr_shotgun,
 	ammo: [pellet],
 	inaccuracy: 15,
-	kick: 7,
+	kick: 10,
 	sound: snd_shotgunshot,
 	spread_number: 8,
 	spread_angle: 10,
