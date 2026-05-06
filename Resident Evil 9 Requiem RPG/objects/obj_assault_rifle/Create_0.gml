@@ -8,10 +8,10 @@ obj_playerleon.y = y;
 bulletar = {
 	sprite: spr_arbullet,
 	spd: 30,
-	rate_start: 10,
-	rate_end: 10,
+	rate_start: 8,
+	rate_end: 8,
 	rate_mult: 0,
-	firerate: 10,
+	firerate: 8,
 	damage: 20,
 }; 
 
