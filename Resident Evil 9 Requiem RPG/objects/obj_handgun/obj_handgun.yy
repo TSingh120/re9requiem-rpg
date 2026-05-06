@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_handgun",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_handgun",
+    "path": "sprites/spr_handgun/spr_handgun.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

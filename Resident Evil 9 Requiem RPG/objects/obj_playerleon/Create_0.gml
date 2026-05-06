@@ -23,3 +23,31 @@ damage_timer = 0;
 /// @DnDHash : 44E4C72F
 /// @DnDArgument : "var" "flash_timer"
 flash_timer = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2869D7D4
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "has_handgun"
+has_handgun = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5466EDD8
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "has_ar"
+has_ar = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 08881CC6
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "has_shotgun"
+has_shotgun = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 59DF25DF
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "has_sniper"
+has_sniper = false;

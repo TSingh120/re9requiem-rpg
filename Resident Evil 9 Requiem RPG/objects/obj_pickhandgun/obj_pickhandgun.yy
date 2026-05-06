@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_sniper",
+  "name": "obj_pickhandgun",
   "spriteId": {
-    "name": "spr_sniper",
-    "path": "sprites/spr_sniper/spr_sniper.yy",
+    "name": "spr_handgun",
+    "path": "sprites/spr_handgun/spr_handgun.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,8 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerleon","path":"objects/obj_playerleon/obj_playerleon.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
