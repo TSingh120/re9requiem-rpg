@@ -10,3 +10,8 @@ image_speed = 0.3;
 /// @DnDHash : 5B2CB50C
 /// @DnDArgument : "steps" "15"
 alarm_set(0, 15);
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 4D7FBA2C
+instance_destroy();

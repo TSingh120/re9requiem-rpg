@@ -20,7 +20,7 @@ shotgun = {
 	ammo: [pellet],
 	inaccuracy: 15,
 	kick: 7,
-	sound: snd_arshot,
+	sound: snd_shotgunshot,
 	spread_number: 8,
 	spread_angle: 10,
 	fullauto: false,

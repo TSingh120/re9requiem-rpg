@@ -6,15 +6,27 @@
 /// @DnDArgument : "var" "var_zombie_hp"
 var_zombie_hp += -other.damage;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 4B3F3686
+/// @DnDArgument : "soundid" "snd_shothit"
+/// @DnDArgument : "gain" "random_range(0.5,0.7)"
+/// @DnDArgument : "pitch" "random_range(0.5,1.5)"
+/// @DnDSaveInfo : "soundid" "snd_shothit"
+audio_play_sound(snd_shothit, 0, 0, random_range(0.5,0.7), undefined, random_range(0.5,1.5));
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 4CE668C2
+/// @DnDApplyTo : {obj_bullet}
 /// @DnDArgument : "xpos" "other.x"
 /// @DnDArgument : "ypos" "other.y"
 /// @DnDArgument : "objectid" "obj_bloodhit"
 /// @DnDArgument : "layer" ""characters""
 /// @DnDSaveInfo : "objectid" "obj_bloodhit"
-instance_create_layer(other.x, other.y, "characters", obj_bloodhit);
+with(obj_bullet) {
+	instance_create_layer(other.x, other.y, "characters", obj_bloodhit); 
+}
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
