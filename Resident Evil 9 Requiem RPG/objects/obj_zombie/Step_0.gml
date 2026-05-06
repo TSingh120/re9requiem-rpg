@@ -35,6 +35,18 @@ if(l1EF71CC7_0)
 /// @DnDArgument : "op" "3"
 if(var_zombie_hp <= 0)
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2DA82F9B
+	/// @DnDApplyTo : {obj_bloodhit}
+	/// @DnDParent : 6FEB9641
+	/// @DnDArgument : "expr" "obj_bloodhit"
+	/// @DnDArgument : "var" "layer"
+	with(obj_bloodhit) {
+	layer = obj_bloodhit;
+	
+	}
+
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 45C5B5AE
