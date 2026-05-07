@@ -37,10 +37,10 @@ if(!l055656FB_0)
 		/// @DnDHash : 5E02698A
 		/// @DnDApplyTo : {obj_playerleon}
 		/// @DnDParent : 37478C80
-		/// @DnDArgument : "expr" "30"
+		/// @DnDArgument : "expr" "90"
 		/// @DnDArgument : "var" "damage_timer"
 		with(obj_playerleon) {
-		damage_timer = 30;
+		damage_timer = 90;
 		
 		}
 	

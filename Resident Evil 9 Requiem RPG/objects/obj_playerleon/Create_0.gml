@@ -51,3 +51,9 @@ has_shotgun = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "has_sniper"
 has_sniper = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1B96FBF9
+/// @DnDArgument : "var" "has_bluekeycard"
+has_bluekeycard = 0;

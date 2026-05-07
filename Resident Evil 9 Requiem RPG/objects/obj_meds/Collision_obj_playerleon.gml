@@ -20,4 +20,18 @@ if(l04746E15_0)
 	playerhp += +15;
 	
 	}
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 3089909B
+	/// @DnDParent : 04746E15
+	/// @DnDArgument : "soundid" "snd_healthpick"
+	/// @DnDSaveInfo : "soundid" "snd_healthpick"
+	audio_play_sound(snd_healthpick, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 7745CFF2
+	/// @DnDParent : 04746E15
+	instance_destroy();
 }

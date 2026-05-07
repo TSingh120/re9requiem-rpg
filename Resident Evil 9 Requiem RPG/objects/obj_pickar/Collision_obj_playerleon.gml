@@ -13,3 +13,10 @@ has_ar = true;
 /// @DnDVersion : 1
 /// @DnDHash : 35137976
 instance_destroy();
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 4503916B
+/// @DnDArgument : "soundid" "snd_gunpickup"
+/// @DnDSaveInfo : "soundid" "snd_gunpickup"
+audio_play_sound(snd_gunpickup, 0, 0, 1.0, undefined, 1.0);

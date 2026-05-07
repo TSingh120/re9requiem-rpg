@@ -11,8 +11,8 @@ if(l1EF71CC7_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4AABCC0D
 	/// @DnDParent : 1EF71CC7
-	/// @DnDArgument : "expr" "distance_to_object(obj_playerleon)<75"
-	if(distance_to_object(obj_playerleon)<75)
+	/// @DnDArgument : "expr" "distance_to_object(obj_playerleon)<125"
+	if(distance_to_object(obj_playerleon)<125)
 	{
 		/// @DnDAction : YoYo Games.Movement.move_and_collide
 		/// @DnDVersion : 1
