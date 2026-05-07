@@ -14,3 +14,8 @@
  y = lerp(y, obj_playerleon.y, 0.25);
  
  #endregion
+ 
+ if (obj_playerleon.playerhp <= 0)
+{
+    instance_destroy();
+}
