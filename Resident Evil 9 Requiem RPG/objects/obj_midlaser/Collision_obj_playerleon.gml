@@ -55,4 +55,13 @@ if(l37478C80_0)
 	flash_timer = 30;
 	
 	}
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 641A39D3
+	/// @DnDParent : 37478C80
+	/// @DnDArgument : "soundid" "snd_playerhurt"
+	/// @DnDArgument : "pitch" "1.05"
+	/// @DnDSaveInfo : "soundid" "snd_playerhurt"
+	audio_play_sound(snd_playerhurt, 0, 0, 1.0, undefined, 1.05);
 }

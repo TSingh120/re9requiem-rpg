@@ -11,8 +11,8 @@
  
  image_angle = mouse_angle + knockback_angle;
  
- x = lerp(x, obj_playerleon.x, 0.05);
- y = lerp(y, obj_playerleon.y, 0.05);
+ x = lerp(x, obj_playerleon.x, 0.25);
+ y = lerp(y, obj_playerleon.y, 0.25);
  
  #endregion
  
