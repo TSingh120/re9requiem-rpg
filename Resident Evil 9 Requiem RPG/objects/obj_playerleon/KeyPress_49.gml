@@ -15,6 +15,14 @@ if(has_handgun=true)
 	l111019C7_0 = instance_exists(obj_handgun);
 	if(!l111019C7_0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 0577E990
+		/// @DnDParent : 111019C7
+		/// @DnDArgument : "soundid" "snd_handgunpickup"
+		/// @DnDSaveInfo : "soundid" "snd_handgunpickup"
+		audio_play_sound(snd_handgunpickup, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 1DE5845F

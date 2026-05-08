@@ -15,6 +15,14 @@ if(has_sniper=true)
 	l26925817_0 = instance_exists(obj_sniper);
 	if(!l26925817_0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 3C114BE3
+		/// @DnDParent : 26925817
+		/// @DnDArgument : "soundid" "snd_snipercock"
+		/// @DnDSaveInfo : "soundid" "snd_snipercock"
+		audio_play_sound(snd_snipercock, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 73B32D3C

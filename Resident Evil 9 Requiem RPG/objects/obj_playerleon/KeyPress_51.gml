@@ -15,6 +15,14 @@ if(has_shotgun=true)
 	l0CE5DE29_0 = instance_exists(obj_shotgun);
 	if(!l0CE5DE29_0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6E44D92F
+		/// @DnDParent : 0CE5DE29
+		/// @DnDArgument : "soundid" "snd_shotgunpick"
+		/// @DnDSaveInfo : "soundid" "snd_shotgunpick"
+		audio_play_sound(snd_shotgunpick, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 19142578

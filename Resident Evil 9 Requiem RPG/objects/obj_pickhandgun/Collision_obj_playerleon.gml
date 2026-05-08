@@ -17,6 +17,6 @@ instance_destroy();
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 7B127625
-/// @DnDArgument : "soundid" "snd_gunpickup"
-/// @DnDSaveInfo : "soundid" "snd_gunpickup"
-audio_play_sound(snd_gunpickup, 0, 0, 1.0, undefined, 1.0);
+/// @DnDArgument : "soundid" "snd_handgunpickup"
+/// @DnDSaveInfo : "soundid" "snd_handgunpickup"
+audio_play_sound(snd_handgunpickup, 0, 0, 1.0, undefined, 1.0);

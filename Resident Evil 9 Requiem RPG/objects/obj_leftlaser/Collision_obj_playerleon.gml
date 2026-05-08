@@ -55,4 +55,20 @@ if(l37478C80_0)
 	flash_timer = 30;
 	
 	}
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 19ABC5CD
+	/// @DnDParent : 37478C80
+	/// @DnDArgument : "soundid" "snd_playerhurt"
+	/// @DnDSaveInfo : "soundid" "snd_playerhurt"
+	audio_play_sound(snd_playerhurt, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 26834370
+	/// @DnDParent : 37478C80
+	/// @DnDArgument : "soundid" "snd_laserburn"
+	/// @DnDSaveInfo : "soundid" "snd_laserburn"
+	audio_play_sound(snd_laserburn, 0, 0, 1.0, undefined, 1.0);
 }

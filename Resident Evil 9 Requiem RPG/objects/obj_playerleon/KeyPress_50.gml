@@ -15,6 +15,14 @@ if(has_ar=true)
 	l7DDE0013_0 = instance_exists(obj_assault_rifle);
 	if(!l7DDE0013_0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 39E5AC12
+		/// @DnDParent : 7DDE0013
+		/// @DnDArgument : "soundid" "snd_arpick"
+		/// @DnDSaveInfo : "soundid" "snd_arpick"
+		audio_play_sound(snd_arpick, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 03B0FBCF
