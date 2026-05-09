@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_cerberussong",
+  "name": "obj_songboobawamba",
   "spriteId": {
     "name": "spr_zombie",
     "path": "sprites/spr_zombie/spr_zombie.yy",
