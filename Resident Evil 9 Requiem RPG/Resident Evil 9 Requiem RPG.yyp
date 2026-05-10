@@ -115,6 +115,7 @@
     {"id":{"name":"obj_pickshotgun","path":"objects/obj_pickshotgun/obj_pickshotgun.yy",},"order":18,},
     {"id":{"name":"spr_touchdooropen","path":"sprites/spr_touchdooropen/spr_touchdooropen.yy",},"order":39,},
     {"id":{"name":"obj_touchdoor","path":"objects/obj_touchdoor/obj_touchdoor.yy",},"order":23,},
+    {"id":{"name":"obj_remains","path":"objects/obj_remains/obj_remains.yy",},"order":31,},
     {"id":{"name":"plants_tileset","path":"sprites/plants_tileset/plants_tileset.yy",},"order":12,},
     {"id":{"name":"obj_zombie_corpse","path":"objects/obj_zombie_corpse/obj_zombie_corpse.yy",},"order":9,},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},"order":0,},

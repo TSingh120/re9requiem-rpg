@@ -57,3 +57,9 @@ has_sniper = false;
 /// @DnDHash : 1B96FBF9
 /// @DnDArgument : "var" "has_bluekeycard"
 has_bluekeycard = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 342C3429
+/// @DnDArgument : "var" "mutagen"
+global.mutagen = 0;

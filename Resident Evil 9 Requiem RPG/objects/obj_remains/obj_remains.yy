@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_zombie_corpse",
+  "name": "obj_remains",
   "spriteId": {
-    "name": "spr_zombie_corpse",
-    "path": "sprites/spr_zombie_corpse/spr_zombie_corpse.yy",
+    "name": "spr_bloodhit",
+    "path": "sprites/spr_bloodhit/spr_bloodhit.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,9 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerleon","path":"objects/obj_playerleon/obj_playerleon.yy",},},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

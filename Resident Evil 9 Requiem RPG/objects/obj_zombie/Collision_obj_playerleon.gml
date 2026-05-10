@@ -37,10 +37,10 @@ if(!l055656FB_0)
 		/// @DnDHash : 5E02698A
 		/// @DnDApplyTo : {obj_playerleon}
 		/// @DnDParent : 37478C80
-		/// @DnDArgument : "expr" "90"
+		/// @DnDArgument : "expr" "60"
 		/// @DnDArgument : "var" "damage_timer"
 		with(obj_playerleon) {
-		damage_timer = 90;
+		damage_timer = 60;
 		
 		}
 	
@@ -61,10 +61,10 @@ if(!l055656FB_0)
 		/// @DnDHash : 0CA89944
 		/// @DnDApplyTo : {obj_playerleon}
 		/// @DnDParent : 37478C80
-		/// @DnDArgument : "expr" "+60"
+		/// @DnDArgument : "expr" "15"
 		/// @DnDArgument : "var" "flash_timer"
 		with(obj_playerleon) {
-		flash_timer = +60;
+		flash_timer = 15;
 		
 		}
 	}
