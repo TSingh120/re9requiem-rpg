@@ -29,3 +29,30 @@ welcome_dialog = [
 	msg: "Well. So much for an enjoyable stay, huh."
 }
 ]
+
+handgun_dialog = [
+{
+	name: "Facility AI",
+	msg: "This weapon will not protect you, human."
+},
+{
+	name: "Leon",
+	msg: "We'll see about that."
+},
+{
+	name: "Facility AI",
+	msg: "You will die here, meaninglessly. Without hope."
+},
+{
+	name: "Leon",
+	msg: "*Shoots* Why do these clankers never shut up?"
+},
+{
+	name: "Facility AI",
+	msg: "*crackle* ------"
+},
+{
+	name: "Leon",
+	msg: "...Well there goes my company for the day."
+},
+]
