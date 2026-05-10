@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "song_boobawamba",
+  "name": "song_menu",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.7,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "song_boobawamba.mp3",
-  "duration": 461.6391,
+  "soundFile": "song_menu.mp3",
+  "duration": 142.02776,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

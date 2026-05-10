@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 707BF731
+/// @DnDArgument : "soundid" "song_menu"
+/// @DnDSaveInfo : "soundid" "song_menu"
+audio_stop_sound(song_menu);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 7CE1B2DF
