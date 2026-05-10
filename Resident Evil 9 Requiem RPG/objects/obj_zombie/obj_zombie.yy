@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_zombie",
   "spriteId": {
-    "name": "spr_zombie",
-    "path": "sprites/spr_zombie/spr_zombie.yy",
+    "name": "spr_zombieidle",
+    "path": "sprites/spr_zombieidle/spr_zombieidle.yy",
   },
   "solid": false,
   "visible": true,
