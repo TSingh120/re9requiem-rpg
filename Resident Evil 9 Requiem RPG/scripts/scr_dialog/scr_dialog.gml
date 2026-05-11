@@ -9,7 +9,8 @@ function create_dialog(_messages){
 char_colors = {
 	"Facility AI": c_green,
 	"Leon": c_aqua,
-	"Shop AI": c_yellow
+	"Shop AI": c_yellow,
+	"The Architect": c_blue
 }
 
 welcome_dialog = [
