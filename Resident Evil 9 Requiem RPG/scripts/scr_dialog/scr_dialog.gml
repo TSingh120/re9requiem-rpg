@@ -16,7 +16,7 @@ char_colors = {
 welcome_dialog = [
 {
 	name: "The Architect",
-	msg: "WARNING. This game has A LOT of walking back and forth and walking in general."
+	msg: "WARNING. This game has A LOT of walking back and forth and walking in general. Also, PRESS 'R' to restart."
 },
 {
 	name: "Facility AI",
