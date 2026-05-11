@@ -66,7 +66,7 @@ handgun_dialog = [
 ar_dialog = [
 {
 	name: "Shop AI",
-	msg: "This specially designed Assault Rifle is available in case of emergencies at the price of 50 Mutagen clusters. Press 2 to equip this weapon."
+	msg: "This specially designed Assault Rifle is available in case of emergencies at the price of 50 Mutagen clusters. Mutagen is available from deceased personnel. Press 2 to equip this weapon."
 },
 {
 	name: "Leon",
