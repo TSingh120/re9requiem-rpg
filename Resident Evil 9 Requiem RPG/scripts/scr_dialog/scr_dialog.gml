@@ -39,7 +39,7 @@ welcome_dialog = [
 handgun_dialog = [
 {
 	name: "Facility AI",
-	msg: "This weapon will not protect you, human."
+	msg: "Press 1 to equi--- ...... This weapon will not protect you, human."
 },
 {
 	name: "Leon",
@@ -66,7 +66,7 @@ handgun_dialog = [
 ar_dialog = [
 {
 	name: "Shop AI",
-	msg: "This specially designed Assault Rifle is available in case of emergencies at the price of 50 Mutagen clusters."
+	msg: "This specially designed Assault Rifle is available in case of emergencies at the price of 50 Mutagen clusters. Press 2 to equip this weapon."
 },
 {
 	name: "Leon",
@@ -96,7 +96,7 @@ safezone1_dialog = [
 shotgun_dialog = [
 {
 	name: "Facility AI",
-	msg: "This specially designed Shotgun is available in case of emergencies at the price of 90 Mutagen clusters.."
+	msg: "This specially designed Shotgun is available in case of emergencies at the price of 90 Mutagen clusters. Press 3 to equip this weapon."
 },
 {
 	name: "Leon",
