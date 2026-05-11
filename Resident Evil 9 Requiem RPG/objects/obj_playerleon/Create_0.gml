@@ -64,6 +64,12 @@ has_bluekeycard = 0;
 /// @DnDArgument : "var" "has_greenkeycard"
 has_greenkeycard = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0E239FA7
+/// @DnDArgument : "var" "has_ylwkeycard"
+has_ylwkeycard = 0;
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 342C3429

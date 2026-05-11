@@ -31,10 +31,10 @@ if(l4945AF74_0)
 		/// @DnDArgument : "xvel" "lengthdir_x(var_zombie_speed, point_direction(x, y, obj_playerleon.x, obj_playerleon.y))"
 		/// @DnDArgument : "yvel" "lengthdir_y(var_zombie_speed, point_direction(x, y, obj_playerleon.x, obj_playerleon.y))"
 		/// @DnDArgument : "maxxmove" "var_zombie_speed"
-		/// @DnDArgument : "maxymove" "var_zombie_speed-0.4"
+		/// @DnDArgument : "maxymove" "var_zombie_speed"
 		/// @DnDArgument : "object" "obj_barrier"
 		/// @DnDSaveInfo : "object" "obj_barrier"
-		move_and_collide(lengthdir_x(var_zombie_speed, point_direction(x, y, obj_playerleon.x, obj_playerleon.y)), lengthdir_y(var_zombie_speed, point_direction(x, y, obj_playerleon.x, obj_playerleon.y)), obj_barrier,4,0,0,var_zombie_speed,var_zombie_speed-0.4);
+		move_and_collide(lengthdir_x(var_zombie_speed, point_direction(x, y, obj_playerleon.x, obj_playerleon.y)), lengthdir_y(var_zombie_speed, point_direction(x, y, obj_playerleon.x, obj_playerleon.y)), obj_barrier,4,0,0,var_zombie_speed,var_zombie_speed);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable

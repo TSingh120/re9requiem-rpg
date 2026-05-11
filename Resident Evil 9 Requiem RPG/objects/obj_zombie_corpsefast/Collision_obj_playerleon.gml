@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7954BD16
-/// @DnDArgument : "expr" "+3"
+/// @DnDArgument : "expr" "+10"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "global.mutagen"
-global.mutagen += +3;
+global.mutagen += +10;
 
 /// @DnDAction : YoYo Games.Instances.Change_Instance
 /// @DnDVersion : 1

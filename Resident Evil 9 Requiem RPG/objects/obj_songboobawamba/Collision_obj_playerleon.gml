@@ -9,8 +9,9 @@ audio_stop_sound(song_menu);
 /// @DnDVersion : 1.1
 /// @DnDHash : 7CE1B2DF
 /// @DnDArgument : "soundid" "song_boobawamba"
+/// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "song_boobawamba"
-audio_play_sound(song_boobawamba, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(song_boobawamba, 0, 1, 1.0, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
