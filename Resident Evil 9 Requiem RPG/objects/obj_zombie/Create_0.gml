@@ -22,9 +22,9 @@ var_zombie_speed = 1.2;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 61D35A1E
-/// @DnDArgument : "expr" "80"
+/// @DnDArgument : "expr" "120"
 /// @DnDArgument : "var" "var_zombie_hp"
-var_zombie_hp = 80;
+var_zombie_hp = 120;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

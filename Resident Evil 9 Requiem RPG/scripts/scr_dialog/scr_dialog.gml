@@ -14,7 +14,7 @@ char_colors = {
 welcome_dialog = [
 {
 	name: "Facility AI",
-	msg: "Welcome to the facility, visitor. I hope you enjoy your stay here."
+	msg: "Welcome to the facility, visitor. I hope you enjoy your stay here. In case of emergencies, follow the green line to the safe room."
 },
 {
 	name: "Leon",
