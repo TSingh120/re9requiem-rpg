@@ -4,7 +4,7 @@
   "name": "snd_playerhurt",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.39,
+  "volume": 0.47,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
