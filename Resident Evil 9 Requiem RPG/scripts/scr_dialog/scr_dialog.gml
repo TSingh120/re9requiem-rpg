@@ -16,7 +16,7 @@ char_colors = {
 welcome_dialog = [
 {
 	name: "The Architect",
-	msg: "WARNING. This game has A LOT of walking back and forth and walking in general. Also, PRESS 'R' to restart."
+	msg: "WARNING. This game has A LOT of walking back and forth and walking in general. Also, PRESS 'R' to restart. Press SPACE to move on to the next dialogue."
 },
 {
 	name: "Facility AI",
@@ -95,7 +95,7 @@ safezone1_dialog = [
 
 shotgun_dialog = [
 {
-	name: "Facility AI",
+	name: "Shop AI",
 	msg: "This specially designed Shotgun is available in case of emergencies at the price of 90 Mutagen clusters. Press 3 to equip this weapon."
 },
 {
