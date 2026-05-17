@@ -31,11 +31,14 @@
  var _ammo = handgun.ammo[bullethg_index];
  
  if canshoot > 0 canshoot--;
- else if _shoot
+ else if _shoot 
+ && obj_playerleon.handgun_ammo > 0
+ && !obj_playerleon.handgun_reloading
  {
 	 // Reset firerate
 	 
 	 canshoot = _ammo.firerate;
+	 obj_playerleon.handgun_ammo--;
 	 
 	 // Lerp firerate to end firerate while shooting
 	 
@@ -67,4 +70,16 @@
 if (obj_playerleon.playerhp <= 0)
 {
     instance_destroy();
+}
+if keyboard_check_pressed(ord("R"))
+{
+    if obj_playerleon.handgun_ammo < obj_playerleon.handgun_mag_size
+    {
+        if obj_playerleon.handgun_reserve > 0
+        {
+            obj_playerleon.handgun_reloading = true;
+            
+            alarm[0] = room_speed * 1.5;
+        }
+    }
 }

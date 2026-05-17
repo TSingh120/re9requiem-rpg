@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_handgun",
+  "name": "obj_handgun_ammobox",
   "spriteId": {
-    "name": "spr_handgun",
-    "path": "sprites/spr_handgun/spr_handgun.yy",
+    "name": "spr_handgun_ammobox",
+    "path": "sprites/spr_handgun_ammobox/spr_handgun_ammobox.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,9 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerleon","path":"objects/obj_playerleon/obj_playerleon.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

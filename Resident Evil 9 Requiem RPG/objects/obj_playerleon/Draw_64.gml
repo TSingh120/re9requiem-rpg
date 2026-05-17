@@ -15,3 +15,12 @@ draw_set_font(Font1);
 draw_set_color(c_white);
 
 draw_text(120, 50, "Mutagen: " + string(global.mutagen));
+
+if instance_exists(obj_handgun)
+{
+    draw_text(
+    50,
+    100,
+    string(handgun_ammo) + "/" + string(handgun_reserve)
+    );
+}
