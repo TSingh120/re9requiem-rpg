@@ -36,6 +36,6 @@ sprite_index = spr_zombieidle;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0409A9F9
-/// @DnDArgument : "expr" "150"
+/// @DnDArgument : "expr" "350"
 /// @DnDArgument : "var" "walk_range"
-walk_range = 150;
+walk_range = 350;

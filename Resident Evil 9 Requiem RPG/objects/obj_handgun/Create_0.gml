@@ -32,3 +32,5 @@ weapon = handgun;
 
 canshoot = 0;
 bullethg_index = 0;
+
+image_speed = 1;

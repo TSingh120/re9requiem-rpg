@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_pickshotgun",
   "spriteId": {
-    "name": "spr_shotgun",
-    "path": "sprites/spr_shotgun/spr_shotgun.yy",
+    "name": "spr_shotgun_pickable",
+    "path": "sprites/spr_shotgun_pickable/spr_shotgun_pickable.yy",
   },
   "solid": false,
   "visible": true,

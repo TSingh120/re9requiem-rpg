@@ -5,3 +5,11 @@
 /// @DnDSaveInfo : "spriteind" "spr_playerwalkleft"
 sprite_index = spr_playerwalkleft;
 image_index = 0;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 4931C276
+/// @DnDArgument : "soundid" "snd_walking"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "soundid" "snd_walking"
+audio_play_sound(snd_walking, 0, 1, 1.0, undefined, 1.0);

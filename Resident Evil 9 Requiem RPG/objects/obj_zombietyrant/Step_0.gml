@@ -164,8 +164,8 @@ if(l4945AF74_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 7478D96C
 		/// @DnDParent : 7D45EB1D
-		/// @DnDArgument : "objind" "obj_zombie_corpse"
-		/// @DnDSaveInfo : "objind" "obj_zombie_corpse"
-		instance_change(obj_zombie_corpse, true);
+		/// @DnDArgument : "objind" "obj_zombie_corpsetyrant"
+		/// @DnDSaveInfo : "objind" "obj_zombie_corpsetyrant"
+		instance_change(obj_zombie_corpsetyrant, true);
 	}
 }

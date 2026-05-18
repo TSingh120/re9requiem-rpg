@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_pickar",
   "spriteId": {
-    "name": "spr_assault_rifle",
-    "path": "sprites/spr_assault_rifle/spr_assault_rifle.yy",
+    "name": "spr_assaultrifle_pickable",
+    "path": "sprites/spr_assaultrifle_pickable/spr_assaultrifle_pickable.yy",
   },
   "solid": false,
   "visible": true,

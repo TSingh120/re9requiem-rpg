@@ -1,8 +1,6 @@
 
  #region Reset position and angle
  
- sprite_index = spr_handgun;
- 
  if mouse_x > x image_yscale = 1;
  else image_yscale = -1;
  
@@ -72,6 +70,7 @@ if (obj_playerleon.playerhp <= 0)
     instance_destroy();
 }
 if keyboard_check_pressed(ord("R"))
+&& !obj_playerleon.handgun_reloading
 {
     if obj_playerleon.handgun_ammo < obj_playerleon.handgun_mag_size
     {
@@ -80,6 +79,36 @@ if keyboard_check_pressed(ord("R"))
             obj_playerleon.handgun_reloading = true;
             
             alarm[0] = room_speed * 1.5;
+			audio_play_sound(snd_handgun_reload,0,false);
         }
     }
+}
+if obj_playerleon.handgun_reloading
+{
+    if sprite_index != spr_handgunreload
+    {
+        sprite_index = spr_handgunreload;
+        image_index = 0;
+    }
+}
+else
+{
+    sprite_index = spr_handgun;
+}
+if sprite_index == spr_handgunreload
+&& image_index >= image_number - 1
+{
+    obj_playerleon.handgun_reloading = false;
+}
+if sprite_index == spr_handgunreload && image_index >= image_number - 1
+{
+    // Do the ammo math right when the animation finishes
+    var needed = obj_playerleon.handgun_mag_size - obj_playerleon.handgun_ammo;
+    var taken = min(needed, obj_playerleon.handgun_reserve);
+
+    obj_playerleon.handgun_ammo += taken;
+    obj_playerleon.handgun_reserve -= taken;
+    
+    obj_playerleon.handgun_reloading = false;
+    sprite_index = spr_handgun;
 }

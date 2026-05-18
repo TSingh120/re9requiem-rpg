@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_pickhandgun",
   "spriteId": {
-    "name": "spr_handgun",
-    "path": "sprites/spr_handgun/spr_handgun.yy",
+    "name": "spr_handgunpickable",
+    "path": "sprites/spr_handgunpickable/spr_handgunpickable.yy",
   },
   "solid": false,
   "visible": true,

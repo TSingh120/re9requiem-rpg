@@ -30,7 +30,7 @@ flash_timer = 0;
 /// @DnDInput : 5
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "expr_1" "12"
-/// @DnDArgument : "expr_2" "18"
+/// @DnDArgument : "expr_2" "6"
 /// @DnDArgument : "expr_3" "12"
 /// @DnDArgument : "expr_4" "false"
 /// @DnDArgument : "var" "has_handgun"
@@ -40,42 +40,69 @@ flash_timer = 0;
 /// @DnDArgument : "var_4" "handgun_reloading"
 has_handgun = false;
 handgun_ammo = 12;
-handgun_reserve = 18;
+handgun_reserve = 6;
 handgun_mag_size = 12;
 handgun_reloading = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5466EDD8
-/// @DnDInput : 4
+/// @DnDInput : 5
 /// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr_1" "30"
+/// @DnDArgument : "expr_2" "15"
+/// @DnDArgument : "expr_3" "30"
+/// @DnDArgument : "expr_4" "false"
 /// @DnDArgument : "var" "has_ar"
+/// @DnDArgument : "var_1" "ar_ammo"
+/// @DnDArgument : "var_2" "ar_reserve"
+/// @DnDArgument : "var_3" "ar_mag_size"
+/// @DnDArgument : "var_4" "ar_reloading"
 has_ar = false;
-variable = 0;
-variable = 0;
-variable = 0;
+ar_ammo = 30;
+ar_reserve = 15;
+ar_mag_size = 30;
+ar_reloading = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 08881CC6
-/// @DnDInput : 4
+/// @DnDInput : 5
 /// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr_1" "7"
+/// @DnDArgument : "expr_2" "4"
+/// @DnDArgument : "expr_3" "7"
+/// @DnDArgument : "expr_4" "false"
 /// @DnDArgument : "var" "has_shotgun"
+/// @DnDArgument : "var_1" "shotgun_ammo"
+/// @DnDArgument : "var_2" "shotgun_reserve"
+/// @DnDArgument : "var_3" "shotgun_mag_size"
+/// @DnDArgument : "var_4" "shotgun_reloading"
 has_shotgun = false;
-variable = 0;
-variable = 0;
-variable = 0;
+shotgun_ammo = 7;
+shotgun_reserve = 4;
+shotgun_mag_size = 7;
+shotgun_reloading = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 59DF25DF
-/// @DnDInput : 4
+/// @DnDInput : 5
 /// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr_1" "5"
+/// @DnDArgument : "expr_2" "3"
+/// @DnDArgument : "expr_3" "5"
+/// @DnDArgument : "expr_4" "false"
 /// @DnDArgument : "var" "has_sniper"
+/// @DnDArgument : "var_1" "sniper_ammo"
+/// @DnDArgument : "var_2" "sniper_reserve"
+/// @DnDArgument : "var_3" "sniper_mag_size"
+/// @DnDArgument : "var_4" "sniper_reloading"
 has_sniper = false;
-variable = 0;
-variable = 0;
-variable = 0;
+sniper_ammo = 5;
+sniper_reserve = 3;
+sniper_mag_size = 5;
+sniper_reloading = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

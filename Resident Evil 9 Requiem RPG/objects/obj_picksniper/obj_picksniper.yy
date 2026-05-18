@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_picksniper",
   "spriteId": {
-    "name": "spr_sniper",
-    "path": "sprites/spr_sniper/spr_sniper.yy",
+    "name": "spr_sniper_pickable",
+    "path": "sprites/spr_sniper_pickable/spr_sniper_pickable.yy",
   },
   "solid": false,
   "visible": true,

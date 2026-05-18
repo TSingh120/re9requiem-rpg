@@ -10,3 +10,10 @@ speed = 0;
 /// @DnDSaveInfo : "spriteind" "spr_playerfaceup"
 sprite_index = spr_playerfaceup;
 image_index = 0;
+
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 60BDB564
+/// @DnDArgument : "soundid" "snd_walking"
+/// @DnDSaveInfo : "soundid" "snd_walking"
+audio_stop_sound(snd_walking);

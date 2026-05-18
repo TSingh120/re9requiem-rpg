@@ -31,7 +31,9 @@
  var _ammo = shotgun.ammo[bullethg_index];
  
  if canshoot > 0 canshoot--;
- else if _shoot
+else if _shoot 
+ && obj_playerleon.shotgun_ammo > 0
+ && !obj_playerleon.shotgun_reloading
  {
 	 // Reset firerate
 	 
@@ -67,4 +69,16 @@
 if (obj_playerleon.playerhp <= 0)
 {
     instance_destroy();
+}
+if keyboard_check_pressed(ord("R"))
+{
+    if obj_playerleon.shotgun_ammo < obj_playerleon.shotgun_mag_size
+    {
+        if obj_playerleon.shotgun_reserve > 0
+        {
+            obj_playerleon.shotgun_reloading = true;
+            
+            alarm[0] = room_speed * 2.3;
+        }
+    }
 }

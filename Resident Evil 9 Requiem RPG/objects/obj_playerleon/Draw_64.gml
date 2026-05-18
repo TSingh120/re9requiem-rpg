@@ -1,5 +1,5 @@
-draw_circular_HP(1250,670,obj_playerleon.playerhp,100,c_lime,70,1,15);
-draw_circular_HP(1250,670,100,100,c_black,72,0.5,19);
+draw_circular_HP(1250,670,obj_playerleon.playerhp,100,c_lime,80,1,17);
+draw_circular_HP(1250,670,100,100,c_black,82,0.5,21);
 
 var _dx = 16;
 var _dy = 16;
@@ -19,8 +19,32 @@ draw_text(120, 50, "Mutagen: " + string(global.mutagen));
 if instance_exists(obj_handgun)
 {
     draw_text(
-    50,
-    100,
+    1247,
+    670,
     string(handgun_ammo) + "/" + string(handgun_reserve)
+    );
+}
+if instance_exists(obj_assault_rifle)
+{
+    draw_text(
+    1242,
+    670,
+    string(ar_ammo) + "/" + string(ar_reserve)
+    );
+}
+if instance_exists(obj_shotgun)
+{
+    draw_text(
+    1242,
+    670,
+    string(shotgun_ammo) + "/" + string(shotgun_reserve)
+    );
+}
+if instance_exists(obj_sniper)
+{
+    draw_text(
+    1242,
+    670,
+    string(sniper_ammo) + "/" + string(sniper_reserve)
     );
 }

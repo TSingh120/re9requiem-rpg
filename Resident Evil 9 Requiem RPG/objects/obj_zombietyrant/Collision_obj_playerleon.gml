@@ -24,11 +24,11 @@ if(!l055656FB_0)
 		/// @DnDHash : 7203CF3E
 		/// @DnDApplyTo : {obj_playerleon}
 		/// @DnDParent : 37478C80
-		/// @DnDArgument : "expr" "-10"
+		/// @DnDArgument : "expr" "-35"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "playerhp"
 		with(obj_playerleon) {
-		playerhp += -10;
+		playerhp += -35;
 		
 		}
 	
