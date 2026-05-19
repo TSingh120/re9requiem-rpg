@@ -3,8 +3,7 @@
 /// @DnDHash : 0A578533
 /// @DnDArgument : "var" "global.mutagen"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "50"
-if(global.mutagen >= 50)
+if(global.mutagen >= 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

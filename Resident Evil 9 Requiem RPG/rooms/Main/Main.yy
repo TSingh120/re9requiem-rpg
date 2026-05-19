@@ -241,6 +241,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17DBB1E8","properties":[],"isDnd":false,"objectId":{"name":"obj_handgun_ammobox","path":"objects/obj_handgun_ammobox/obj_handgun_ammobox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":1824.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7381B68","properties":[],"isDnd":false,"objectId":{"name":"obj_handgun_ammobox","path":"objects/obj_handgun_ammobox/obj_handgun_ammobox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":1792.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BF37D28","properties":[],"isDnd":false,"objectId":{"name":"obj_pickhandgun","path":"objects/obj_pickhandgun/obj_pickhandgun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DD11C79","properties":[],"isDnd":false,"objectId":{"name":"obj_pickar","path":"objects/obj_pickar/obj_pickar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":192.0,},
       ],"visible":true,"depth":1600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_tintfilter","properties":[
         {"type":1,"name":"g_TintCol","value":"#FFD1D1D1",},
       ],},
@@ -442,6 +443,7 @@
     {"name":"inst_17DBB1E8","path":"rooms/Main/Main.yy",},
     {"name":"inst_7381B68","path":"rooms/Main/Main.yy",},
     {"name":"inst_BF37D28","path":"rooms/Main/Main.yy",},
+    {"name":"inst_6DD11C79","path":"rooms/Main/Main.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

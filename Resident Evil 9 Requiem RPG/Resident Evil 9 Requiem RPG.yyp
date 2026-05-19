@@ -29,6 +29,7 @@
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"order":1,},
     {"id":{"name":"snd_pistolshot","path":"sounds/snd_pistolshot/snd_pistolshot.yy",},"order":0,},
     {"id":{"name":"spr_touchdoor","path":"sprites/spr_touchdoor/spr_touchdoor.yy",},"order":38,},
+    {"id":{"name":"spr_assault_riflereload","path":"sprites/spr_assault_riflereload/spr_assault_riflereload.yy",},"order":70,},
     {"id":{"name":"spr_playerwalkright","path":"sprites/spr_playerwalkright/spr_playerwalkright.yy",},"order":2,},
     {"id":{"name":"spr_scidoorclose","path":"sprites/spr_scidoorclose/spr_scidoorclose.yy",},"order":32,},
     {"id":{"name":"snd_zombieattack","path":"sounds/snd_zombieattack/snd_zombieattack.yy",},"order":20,},
