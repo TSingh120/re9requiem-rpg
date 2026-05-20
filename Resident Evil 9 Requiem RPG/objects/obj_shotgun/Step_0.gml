@@ -1,8 +1,6 @@
 
  #region Reset position and angle
  
- sprite_index = spr_shotgun;
- 
  if mouse_x > x image_yscale = 1;
  else image_yscale = -1;
  
@@ -31,13 +29,14 @@
  var _ammo = shotgun.ammo[bullethg_index];
  
  if canshoot > 0 canshoot--;
-else if _shoot 
+ else if _shoot 
  && obj_playerleon.shotgun_ammo > 0
  && !obj_playerleon.shotgun_reloading
  {
 	 // Reset firerate
 	 
 	 canshoot = _ammo.firerate;
+	 obj_playerleon.shotgun_ammo--;
 	 
 	 // Lerp firerate to end firerate while shooting
 	 
@@ -71,6 +70,7 @@ if (obj_playerleon.playerhp <= 0)
     instance_destroy();
 }
 if keyboard_check_pressed(ord("R"))
+&& !obj_playerleon.shotgun_reloading
 {
     if obj_playerleon.shotgun_ammo < obj_playerleon.shotgun_mag_size
     {
@@ -78,7 +78,37 @@ if keyboard_check_pressed(ord("R"))
         {
             obj_playerleon.shotgun_reloading = true;
             
-            alarm[0] = room_speed * 2.3;
+            alarm[0] = room_speed * 1.5;
+			audio_play_sound(snd_handgun_reload,0,false);
         }
     }
+}
+if obj_playerleon.shotgun_reloading
+{
+    if sprite_index != spr_handgunreload
+    {
+        sprite_index = spr_handgunreload;
+        image_index = 0;
+    }
+}
+else
+{
+    sprite_index = spr_shotgun;
+}
+if sprite_index == spr_shotgun
+&& image_index >= image_number - 1
+{
+    obj_playerleon.shotgun_reloading = false;
+}
+if sprite_index == spr_handgunreload && image_index >= image_number - 1
+{
+    // Do the ammo math right when the animation finishes
+    var needed = obj_playerleon.shotgun_mag_size - obj_playerleon.shotgun_ammo;
+    var taken = min(needed, obj_playerleon.shotgun_reserve);
+
+    obj_playerleon.shotgun_ammo += taken;
+    obj_playerleon.shotgun_reserve -= taken;
+    
+    obj_playerleon.shotgun_reloading = false;
+    sprite_index = spr_shotgun;
 }

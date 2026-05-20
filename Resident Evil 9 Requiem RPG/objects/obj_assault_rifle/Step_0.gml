@@ -95,7 +95,7 @@ else
 {
     sprite_index = spr_assault_rifle;
 }
-if sprite_index == spr_handgunreload
+if sprite_index == spr_assault_riflereload
 && image_index >= image_number - 1
 {
     obj_playerleon.ar_reloading = false;
