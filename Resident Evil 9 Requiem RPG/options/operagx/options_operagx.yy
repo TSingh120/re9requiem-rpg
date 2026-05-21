@@ -2,8 +2,8 @@
   "resourceType": "GMOperaGXOptions",
   "resourceVersion": "1.0",
   "name": "operagx",
-  "option_operagx_version": "1.0.0.0",
-  "option_operagx_next_version": "1.0.0.1",
+  "option_operagx_version": "1.0.0.2",
+  "option_operagx_next_version": "1.0.0.3",
   "option_operagx_game_name": "Resident Evil 9 Requiem RPG",
   "option_operagx_interpolate_pixels": false,
   "option_operagx_scale": 0,
@@ -14,5 +14,5 @@
   "option_operagx_team_id": "b1713832-2e69-4bb9-87ba-b7e09c2abc9d",
   "option_operagx_editUrl": "https://dev.gx.games/games/05ff8755-77e7-40b9-9be7-ad937de3de21/details",
   "option_operagx_internalShareUrl": "https://gx.games/games/m2rzwm/resident-evil-9-requiem-rpg/tracks/247b7262-f498-4b50-ab8f-80186488801f/",
-  "option_operagx_publicShareUrl": "",
+  "option_operagx_publicShareUrl": "https://gx.games/games/m2rzwm/resident-evil-9-requiem-rpg/",
 }
